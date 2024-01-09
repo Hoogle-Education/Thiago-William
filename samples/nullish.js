@@ -11,6 +11,8 @@ fruits = [
 console.log(pessoa.nome);
 console.log("tem nome", !!pessoa.nome);
 
+
+
 // if (pessoa.nome) {
 //     console.log(pessoa.nome);
 // }
