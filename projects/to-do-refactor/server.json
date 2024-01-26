@@ -1,0 +1,32 @@
+{
+  "todos" : [
+    {
+      "description" : "lavar roupa",
+      "isCompleted": false
+    },
+    {
+      "description" : "lavar louça",
+      "isCompleted": false
+    },
+    {
+      "description" : "arrumar a casa",
+      "isCompleted": true
+    },
+    {
+      "description" : "estudar",
+      "isCompleted": false
+    },
+    {
+      "description" : "fazer exercícios",
+      "isCompleted": true
+    },
+    {
+      "description" : "comer",
+      "isCompleted": false
+    },
+    {
+      "description" : "dormir",
+      "isCompleted": false
+    }
+  ]
+}
