@@ -20,6 +20,7 @@ export class ButtonPrimaryComponent {
 
   click() {
     console.log(`click...${this.buttonText}`)
+    console.log(this.onClick)
     this.onClick.emit()
   }
 }
