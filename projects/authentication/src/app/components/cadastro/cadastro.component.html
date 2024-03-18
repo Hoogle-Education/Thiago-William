@@ -1,0 +1,18 @@
+<form [formGroup]="cadastroForm" (ngSubmit)="onSubmit()" class="flex flex-column align-items-center gap-3">
+  <div class="flex flex-column gap-1 w-2">
+    <label for="username">Username</label>
+    <input name="username" type="text" placeholder="username" formControlName="username">
+  </div>
+
+  <div class="flex flex-column gap-1 w-2">
+    <label for="email">Email</label>
+    <input name="email" type="email" placeholder="email" formControlName="email">
+  </div>
+
+  <div class="flex flex-column gap-1 w-2">
+    <label for="password">Password</label>
+    <input name="password" type="text" placeholder="password" formControlName="password">
+  </div>
+
+  <button type="submit" class="w-2">Acessar</button>
+</form>
